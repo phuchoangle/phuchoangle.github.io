@@ -1,13 +1,14 @@
 export const siteConfig = {
   name: "Dr. Phuc Le",
-  title: "Dr. Phuc Le | Head of Research",
+  title: "Phuc Le - Researcher, Builder, Storyteller",
   description:
-    "Portfolio of Dr. Phuc Le - Head of Research & Content at Concero, PhD in Applied Physics.",
+    "PhD physicist turned blockchain researcher. I design cross-chain protocols at Concero and make complex tech make sense.",
   url: "https://phuchoangle.github.io",
   email: "lh.phucc@gmail.com",
   social: {
     linkedin: "https://www.linkedin.com/in/phuchoangle/",
     twitter: "https://x.com/phuchoanglevn",
+    github: "https://github.com/phuchoangle",
     scholar:
       "https://scholar.google.com/citations?user=6_PuKpwAAAAJ&hl=en",
   },
@@ -27,7 +28,7 @@ export const experiences: Experience[] = [
     title: "Head of Research & Content",
     company: "Concero Labs",
     description:
-      "Leading protocol architecture and technical strategy. Authored core whitepapers (Concero V2 & Lanca Bridging Framework) and managing go-to-market content strategy.",
+      "Co-designed the protocol architecture for Lanca & Concero with our CTO. Wrote both core whitepapers, built out all technical docs, and ran content strategy that helped drive 100K+ testnet signups and $100M+ in bridge volume.",
     tag: "Current Role",
   },
   {
@@ -35,7 +36,7 @@ export const experiences: Experience[] = [
     title: "Chainlink Community Advocate",
     company: "Chainlink",
     description:
-      "Technical liaison connecting Web3 projects with Chainlink Labs. Organizing developer meetups and educational initiatives in Vietnam and Australia.",
+      "Connecting Web3 teams with Chainlink for oracle integration. Organised 10+ developer meetups across Vietnam and Australia. Featured as one of the most active advocates on the Chainlink website.",
     tag: "Community",
   },
   {
@@ -43,15 +44,15 @@ export const experiences: Experience[] = [
     title: "Research Lead",
     company: "AlphaTrue",
     description:
-      "Led technical discovery of DeFi applications for enterprise investment. Delivered educational seminars on blockchain mechanics.",
+      "Researched DeFi protocols to guide enterprise investment decisions. Ran educational seminars on blockchain mechanics and wrote market reports for the Vietnamese ecosystem.",
     tag: "Blockchain Research",
   },
   {
     date: "May 2019 – Dec 2024",
     title: "Post-doctoral Fellow & Technical Officer",
-    company: "RMIT University & Univ. of Melbourne",
+    company: "RMIT University & University of Melbourne",
     description:
-      'Supervised PhD students, managed high-level research projects, and published media-impactful research (e.g., "Micro-spikes for Superbugs").',
+      "Designed experiments, analysed datasets, supervised PhD students, and helped secure government funding. Our research on micro-spiked surfaces for killing superbugs was picked up by ScienceDaily and IFLScience.",
     tag: "Academia",
   },
   {
@@ -59,7 +60,7 @@ export const experiences: Experience[] = [
     title: "PhD in Applied Physics",
     company: "RMIT University, Melbourne",
     description:
-      "Focus on Biophysics and Nano-material science. Granted Full Scholarship by ARC Research Hub for Australian Steel Manufacturing.",
+      "Biophysics and Nanomaterial Science. Full scholarship from ARC Research Hub. Three years of lab work, data analysis, and learning how to explain hard things clearly.",
     tag: "Education",
   },
   {
@@ -67,15 +68,15 @@ export const experiences: Experience[] = [
     title: "Co-founder",
     company: "HIA Corner (F&B Brand)",
     description:
-      "Founded and scaled business to 2 stores. Achieved 50% sales growth in the first year before exiting to pursue PhD.",
+      "Built a food brand from scratch - 2 stores, 50% sales growth in year one. Learned more about hustle, marketing, and resilience here than anywhere else. Left to pursue a PhD.",
     tag: "Entrepreneurship",
   },
   {
     date: "Sep 2011 – Sep 2015",
     title: "BSc in Biotechnology",
-    company: "International University - VNU, Vietnam",
+    company: "International University – VNU, Vietnam",
     description:
-      "Mitacs Globalink Research Internship Award at Simon Fraser University, Canada.",
+      "Where it all started. Won a Mitacs Globalink Research Internship to spend a summer doing research at Simon Fraser University in Canada.",
     tag: "Education",
   },
 ];

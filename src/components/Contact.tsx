@@ -5,11 +5,11 @@ export default function Contact() {
     <section id="contact" className="py-24 bg-[var(--card)]">
       <div className="max-w-[1200px] mx-auto w-[90%] text-center">
         <h2 className="text-3xl sm:text-4xl font-bold tracking-tight mb-4 animate-on-scroll">
-          Let&apos;s Connect
+          Say hello
         </h2>
-        <p className="text-lg text-[var(--text-muted)] mb-8 animate-on-scroll">
-          Open to discussing research, blockchain architecture, and content
-          strategy.
+        <p className="text-lg text-[var(--text-muted)] mb-8 max-w-md mx-auto animate-on-scroll">
+          Whether it&apos;s about cross-chain protocols, a speaking opportunity,
+          or just a good conversation - I&apos;d love to hear from you.
         </p>
         <a
           href={`mailto:${siteConfig.email}`}
@@ -33,6 +33,14 @@ export default function Contact() {
             className="text-sm font-medium text-[var(--text-muted)] hover:text-[var(--fg)] transition-colors"
           >
             X (Twitter)
+          </a>
+          <a
+            href={siteConfig.social.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm font-medium text-[var(--text-muted)] hover:text-[var(--fg)] transition-colors"
+          >
+            GitHub
           </a>
           <a
             href={siteConfig.social.scholar}

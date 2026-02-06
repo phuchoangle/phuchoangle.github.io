@@ -8,21 +8,27 @@ export default function Hero() {
         <div className="grid grid-cols-1 md:grid-cols-[1.2fr_0.8fr] gap-12 md:gap-16 items-center">
           <div className="order-2 md:order-1">
             <span className="text-sm font-medium tracking-widest uppercase text-[var(--text-muted)] mb-4 block">
-              Researcher &amp; Strategist
+              Physicist &middot; Researcher &middot; Builder
             </span>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tight mb-6">
-              Turning complex technical tradeoffs into clear decisions.
+              I make complex tech
+              <br />
+              make sense.
             </h1>
             <p className="text-lg text-[var(--text-muted)] leading-relaxed mb-8 max-w-xl">
-              Head of Research &amp; Content at Concero. PhD in Applied Physics.
-              Building blockchain interoperability solutions.
+              I&apos;m Phuc - a PhD physicist who now designs cross-chain
+              protocols and writes the whitepapers behind them. Currently
+              leading research and content at{" "}
+              <strong className="text-[var(--fg)] font-medium">Concero</strong>,
+              where I help turn code into stories that developers and
+              partners actually want to read.
             </p>
             <div className="flex flex-wrap items-center gap-4">
               <a
                 href="#journey"
                 className="inline-flex items-center px-6 py-3 bg-[var(--accent)] text-[var(--bg)] rounded-full text-sm font-medium hover:opacity-90 transition-opacity"
               >
-                View My Journey
+                See My Journey
               </a>
               <a
                 href="/phuc-le-cv.pdf"
@@ -38,7 +44,7 @@ export default function Hero() {
                 rel="noopener noreferrer"
                 className="text-sm font-medium text-[var(--text-muted)] hover:text-[var(--fg)] transition-colors"
               >
-                LinkedIn &nearr;
+                LinkedIn ↗
               </a>
             </div>
           </div>

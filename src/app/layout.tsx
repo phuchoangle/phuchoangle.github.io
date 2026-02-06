@@ -12,16 +12,16 @@ const outfit = Outfit({
 
 export const metadata: Metadata = {
   title: {
-    default: "Dr. Phuc Le | Head of Research",
-    template: "%s | Dr. Phuc Le",
+    default: "Phuc Le - Researcher, Builder, Storyteller",
+    template: "%s | Phuc Le",
   },
   description:
-    "Portfolio of Dr. Phuc Le - Head of Research & Content at Concero, PhD in Applied Physics.",
+    "PhD physicist turned blockchain researcher. I design cross-chain protocols at Concero and make complex tech make sense.",
   openGraph: {
-    title: "Dr. Phuc Le | Head of Research",
+    title: "Phuc Le - Researcher, Builder, Storyteller",
     description:
-      "Portfolio of Dr. Phuc Le - Head of Research & Content at Concero, PhD in Applied Physics.",
-    siteName: "Dr. Phuc Le",
+      "PhD physicist turned blockchain researcher. I design cross-chain protocols at Concero and make complex tech make sense.",
+    siteName: "Phuc Le",
     locale: "en_US",
     type: "website",
   },
