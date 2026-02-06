@@ -69,7 +69,7 @@ export default async function WritingArticle(props: {
               </div>
             )}
           </header>
-          <div className="prose prose-lg max-w-none animate-on-scroll">
+          <div className="prose prose-lg max-w-none">
             <MDXRemote source={post.content} />
           </div>
         </div>
