@@ -10,7 +10,7 @@ export const siteConfig = {
     twitter: "https://x.com/phuchoanglevn",
     github: "https://github.com/phuchoangle",
     scholar:
-      "https://scholar.google.com/citations?user=6_PuKpwAAAAJ&hl=en",
+      "https://scholar.google.com/citations?hl=en&user=6_PuKpwAAAAJ&view_op=list_works&sortby=pubdate",
   },
 };
 

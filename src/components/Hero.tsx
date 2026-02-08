@@ -31,12 +31,10 @@ export default function Hero() {
                 See My Journey
               </a>
               <a
-                href="/phuc-le-cv.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/writing"
                 className="inline-flex items-center px-6 py-3 border border-[var(--border)] rounded-full text-sm font-medium hover:bg-[var(--card)] transition-colors"
               >
-                Download CV
+                Read My Writing
               </a>
               <a
                 href={siteConfig.social.linkedin}
