@@ -8,7 +8,7 @@ export default function Hero() {
         <div className="grid grid-cols-1 md:grid-cols-[1.2fr_0.8fr] gap-12 md:gap-16 items-center">
           <div className="order-2 md:order-1">
             <span className="text-sm font-medium tracking-widest uppercase text-[var(--text-muted)] mb-4 block">
-              Physicist &middot; Researcher &middot; Builder
+              Physicist &middot; DeFi Native &middot; Builder
             </span>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tight mb-6">
               I make complex tech
@@ -16,12 +16,13 @@ export default function Hero() {
               make sense.
             </h1>
             <p className="text-lg text-[var(--text-muted)] leading-relaxed mb-8 max-w-xl">
-              I&apos;m Phuc - a PhD physicist who now designs cross-chain
-              protocols and writes the whitepapers behind them. Currently
-              leading research and content at{" "}
+              I&apos;m Phuc - a PhD physicist turned DeFi native who designs
+              cross-chain infrastructure and writes the whitepapers behind
+              them. Deep in AMMs, lending markets, cross-chain liquidity rebalancing, and yield mechanics.
+              Currently leading research at{" "}
               <strong className="text-[var(--fg)] font-medium">Concero</strong>,
-              where I help turn code into stories that developers and
-              partners actually want to read.
+              where I turn protocol complexity into stories that developers
+              and partners actually want to read.
             </p>
             <div className="flex flex-wrap items-center gap-4">
               <a

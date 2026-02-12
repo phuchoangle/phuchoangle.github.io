@@ -61,7 +61,7 @@ export default function Achievements() {
               One of Australia&apos;s most prestigious visa pathways, reserved for individuals with an internationally recognised record of exceptional achievement. Grants the right to live and work in Australia permanently as an Australian permanent resident.
             </p>
             <p className="text-xs text-[var(--text-muted)]">
-              Granted in the Health Industries sector for contributions to biophysics research featured in international media.
+              Granted in the Science and Technology sector for contributions to biophysics research featured in international media.
             </p>
           </div>
         </div>

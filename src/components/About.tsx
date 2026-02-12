@@ -1,16 +1,16 @@
 import Image from "next/image";
-import { siteConfig } from "@/lib/constants";
+import { siteConfig, defiSkills } from "@/lib/constants";
 
 const highlights = [
+  {
+    title: "DeFi Native",
+    description:
+      "Deep, hands-on expertise across the full DeFi stack - from liquidity primitives and tokenomics to cross-chain infrastructure design.",
+  },
   {
     title: "Strategic Research",
     description:
       "Translating protocol analysis into decision-ready briefs for C-suite on market positioning and competitive differentiation.",
-  },
-  {
-    title: "Grant Writing",
-    description:
-      "Led data analysis and drafting for grant applications (Avalanche, Base, OP, Pharos), structuring datasets to prove impact.",
   },
   {
     title: "Brand & Growth",
@@ -20,7 +20,7 @@ const highlights = [
   {
     title: "Partnerships & Sales",
     description:
-      "Represented Concero at international conferences, initiating sales conversations and securing partnerships through technical deep-dives.",
+      "Led partnership development with DeFi protocols, L2s, and liquidity providers. Represented Concero at SEABW 2025 and Ethereum Vietnam 2025.",
   },
 ];
 
@@ -48,22 +48,23 @@ export default function About() {
               >
                 See my publications
               </a>
-              . But somewhere along the way, I got pulled into blockchain
-              and never looked back.
+              . But somewhere along the way, I fell down the DeFi rabbit
+              hole and never looked back.
             </p>
             <p className="text-lg leading-relaxed text-[var(--text-muted)] mb-6">
-              Now I spend my days at{" "}
-              <strong className="text-[var(--fg)] font-medium">Concero</strong>{" "}
-              figuring out how to move value across blockchains without
-              it being a nightmare. I co-design the protocol architecture
-              with our engineering team, write the whitepapers, maintain
-              the docs, and create the content that explains it all to
-              the outside world.
+              I&apos;m a native degen at heart - deeply familiar with AMM
+              mechanics, lending protocols, yield-bearing strategies, MEV
+              dynamics, and the full spectrum of DeFi primitives. That
+              on-chain intuition now powers my work at{" "}
+              <strong className="text-[var(--fg)] font-medium">Concero</strong>,
+              where I co-design cross-chain infrastructure with our
+              engineering team, write the whitepapers, and build the
+              narrative that connects protocol design to real market needs.
             </p>
             <p className="text-lg leading-relaxed text-[var(--text-muted)] mb-6">
               What I enjoy most is taking something genuinely complicated
               and finding the clearest way to explain it - whether that&apos;s
-              on stage at a conference in Bangkok, in a technical blog post,
+              on stage at SEABW 2025 in Bangkok, in a technical blog post,
               or in a whitepaper that developers will actually finish reading.
             </p>
             <div className="flex flex-wrap items-center gap-4">
@@ -99,8 +100,25 @@ export default function About() {
           </div>
         </div>
 
-        {/* Business & Market Growth highlights */}
-        <div className="mt-16">
+        {/* DeFi expertise tags */}
+        <div className="mt-16 animate-on-scroll">
+          <h3 className="text-lg font-semibold tracking-tight mb-4">
+            DeFi expertise
+          </h3>
+          <div className="flex flex-wrap gap-2">
+            {defiSkills.map((skill) => (
+              <span
+                key={skill}
+                className="px-3 py-1.5 text-sm bg-[var(--card)] border border-[var(--border)] rounded-full text-[var(--text-muted)] hover:text-[var(--fg)] hover:border-[var(--fg)] transition-colors"
+              >
+                {skill}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        {/* What I bring to the table */}
+        <div className="mt-10">
           <h3 className="text-lg font-semibold tracking-tight mb-6 animate-on-scroll">
             Beyond research, what I also bring to the table
           </h3>
